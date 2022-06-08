@@ -6,6 +6,12 @@
 	<link rel="stylesheet" type="text/css" href="./style.css">
 	<link rel="icon" type="image/x-icon" href="./image/favicon.png">
 	<title>API Whatsapp</title>
+
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
 </head>
 <body>
 	<header>
@@ -17,24 +23,26 @@
 	
 	<!-- Aviso de site em desenvolvimento -->
 	<p>
-		<br><br>&#9888;&#65039; Site em desenvolvimento! &#9888;&#65039;<br>
-		Porém você já pode testar a funcionalidade abaixo.&#128071;
-		<br><br>
+		Digite o número abaixo para iniciar uma conversa
 	</p>
 
 	<!--https://api.whatsapp.com/send/?phone=55DDDnumeroaqui-->
 	<div>
 		<form action="https://api.whatsapp.com/send/" method="get">
-			<label for="phone">Número do whatsapp com DDD:</label><br>
-			<input value="55" type="number" id="phone" name="phone"><br>
-			<small>Somente números</small><br>
-			<button type="submit">Abrir conversa</button><br>
+			<label for="phone">Número com DDD:</label><br>
+			<input value="55" type="number" id="phone" name="phone">
+			<button type="submit">Abrir</button>
+			
 		</form>
+		<small>Somente números</small>
+	</div>
+	<div>
+		<p>Este site não tem nenhuma ligação com o Whatsapp</p>
 	</div>
 	
 
 	<footer>
-	<p>Este site não tem nenhuma ligação com o Whatsapp</p>
+	
 	<a target="_blank" href="https://icons8.com/icon/42961/whatsapp">Whatsapp</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 	</footer>
 </body>
