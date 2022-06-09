@@ -30,8 +30,8 @@ header div h1 {
 	margin: 0 0 0 20px;
 }
 
-div {
-
+#digite {
+	padding: 2% 10px;
 }
 
 input {
@@ -56,7 +56,16 @@ button {
 	width: 60px;
 }
 
-footer {
+#formulario {
+	margin: 2% 10px;
+}
+
+#aviso {
+	margin: 4% 10px;
+}
+
+#rodape {
 	position: fixed;
-	bottom: 0px;
+	bottom: 10px;
+	width: 100%;
 }

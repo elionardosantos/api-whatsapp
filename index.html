@@ -22,12 +22,14 @@
 	</header>
 	
 	<!-- Aviso de site em desenvolvimento -->
-	<p>
-		Digite o número abaixo para iniciar uma conversa
-	</p>
+	<div id="digite">
+		<p>
+			Digite o número abaixo para iniciar uma conversa
+		</p>
+	</div>
 
 	<!--https://api.whatsapp.com/send/?phone=55DDDnumeroaqui-->
-	<div>
+	<div id="formulario">
 		<form action="https://api.whatsapp.com/send/" method="get">
 			<label for="phone">Número com DDD:</label><br>
 			<input value="55" type="number" id="phone" name="phone">
@@ -36,14 +38,13 @@
 		</form>
 		<small>Somente números</small>
 	</div>
-	<div>
+	<div id="aviso">
 		<p>Este site não tem nenhuma ligação com o Whatsapp</p>
 	</div>
-	
-
-	<footer>
-	
-	<a target="_blank" href="https://icons8.com/icon/42961/whatsapp">Whatsapp</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
-	</footer>
+	<div id="rodape">
+		<footer>
+			<a target="_blank" href="https://icons8.com/icon/42961/whatsapp">Whatsapp</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+		</footer>
+	</div>
 </body>
 </html>
