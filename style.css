@@ -31,7 +31,7 @@ header div h1 {
 }
 
 #digite {
-	padding: 2% 10px;
+	padding: 3% 10px;
 }
 
 input {
@@ -57,15 +57,30 @@ button {
 }
 
 #formulario {
-	margin: 2% 10px;
+	margin: 3% 10px;
 }
 
 #aviso {
-	margin: 4% 10px;
+	margin: 5% 10px;
 }
 
 #rodape {
 	position: fixed;
-	bottom: 10px;
+	bottom: 0px;
+	padding: 0px 0px;
 	width: 100%;
+	font-size: 12px;
+	background-color: #128c7e;
+}
+
+#rodape footer {
+	display: flex;
+    justify-content: space-around;
+	max-width: 1000px;
+	color: white;
+	margin: 0 auto;
+}
+
+#rodape footer a {
+	color: white;
 }
